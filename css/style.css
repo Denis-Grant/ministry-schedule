@@ -1,0 +1,42 @@
+.top-bar .lh {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.top-bar .lh .top {
+  font-size: 30px;
+}
+
+.top-bar .lh .bottom {
+  font-size: 40px;
+}
+
+.group-focus, .week-1, .week-2, .week-3, .week-4, .week-5 {
+  margin-top: 2px;
+}
+
+.group-focus *, .week-1 *, .week-2 *, .week-3 *, .week-4 *, .week-5 * {
+  padding: 0 6px;
+  margin-right: 2px;
+}
+
+.fa-caret-right {
+  color: #2a4365;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+.bg-orange-400 {
+  background-color: rgba(246, 174, 85, 0.613);
+}
+
+@media (min-width: 1024px) {
+  .days {
+    padding-top: 0;
+    grid-gap: 1px;
+  }
+  .days * {
+    padding: 0 6px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

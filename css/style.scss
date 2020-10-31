@@ -1,0 +1,44 @@
+.top-bar {
+
+    .lh {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        .top {
+            font-size: 30px;
+        }
+        .bottom {
+            font-size: 40px;
+        }
+    }
+} 
+
+.group-focus,.week-1, .week-2, .week-3,.week-4,.week-5 {
+    margin-top: 2px;
+    & * {
+        padding: 0 6px;
+        margin-right: 2px;
+
+    }
+}
+.overseer {
+    // border-top: 2px solid white;
+}
+.fa-caret-right {
+    color: rgb(42,67,101);
+    font-size: 60px;
+    padding-top: 30px;
+    // transform: translateX(-3px);
+}
+.bg-orange-400 {
+    background-color: rgba(246, 174, 85, 0.613);
+}
+
+@media  (min-width: 1024px){
+    .days {
+        padding-top: 0;
+        grid-gap: 1px;
+        & *  {
+            padding: 0 6px;
+        }
+    }
+}
