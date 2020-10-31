@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .top-bar .lh {
   font-family: 'Oswald', sans-serif;
   text-align: center;
